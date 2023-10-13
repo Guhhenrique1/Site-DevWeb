@@ -1,0 +1,314 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos da seção da página inicial */
+.background {
+    background-image: url('images3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Estilos do cabeçalho com drop-down */
+header {
+    background-image: url('images_2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    color: #fff;
+}
+
+.dropbtn {
+    background: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+header a {
+    
+        text-decoration: none;
+        color: #007BFF;
+        margin: 0 10px;
+        border: 1px solid #007BFF; 
+        padding: 5px 10px; 
+        border-radius: 5px; 
+    
+    
+}
+
+/* Estilos do conteúdo do site */
+main {
+    margin: 30px;
+}
+
+article {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+}
+
+h1, h2, h3 {
+    color: #000000;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilos do cabeçalho com drop-down */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color:#007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/* Estilos do cabeçalho */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+/* Adicione este estilo para a imagem do perfil */
+.profile-picture {
+    background-image: url('WhatsApp\ Image\ 2023-10-13\ at\ 12.34.20.jpeg'); /* Substitua 'sua_foto.jpg' pelo caminho da sua imagem */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Torna a imagem redonda */
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px; /* Espaço à direita da imagem */
+}
+
+/* Restante dos estilos para o cabeçalho */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    flex: 1; /* Ocupa o espaço restante no cabeçalho */
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+/* Estilos para as imagens redondas dos editores de código */
+.editor-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+/* Estilos das imagens para cada editor de código */
+.editor .vscode {
+    background-image: url('vscode.jpg');
+}
+
+.editor .sublime {
+    background-image: url('sublimetext.jpg');
+}
+
+.editor .atom {
+    background-image: url('atom.jpg');
+}
+
+.editor .eclipse {
+    background-image: url('eclipse.png');
+}
+
+.editor .notepad {
+    background-image: url('notepad.png');
+}
+/* Estilos para as imagens redondas das hospedagens de site */
+.hosting-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+/* Estilos das imagens para cada hospedagem de site */
+.hosting .github {
+    background-image: url('github.png');
+}
+
+.hosting .netlify {
+    background-image: url('netlify.png');
+}
+
+.hosting .vercel {
+    background-image: url('vercel.png');
+}
+
+.hosting .bitbucket {
+    background-image: url('bitbucket.png');
+}
+
+.hosting .firebase {
+    background-image: url('firebase.png');
+}
+/* Estilos do cabeçalho */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    border: 1px solid #fff; /* Adicione esta linha para criar uma borda */
+    padding: 5px 10px; /* Ajuste o padding conforme necessário */
+    border-radius: 5px; /* Adicione bordas arredondadas */
+}
+
+
+
+
+
